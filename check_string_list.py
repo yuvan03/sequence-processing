@@ -1,16 +1,18 @@
 
-"""
-This program takes string input and checks if that string is in a list of strings
-
-if string is in the list it removes the first instance from list
-if string is not in the list the input gets appended to the list
-if the string is empty then the last item is popped from the list
-if the list becomes empty the program ends
-if the user enters "quit" then the program ends
-"""
 
 
 class CheckStringList():
+
+	"""
+	Takes string input and checks if that string is in a list of strings
+
+	if string is in the list it removes the first instance from list
+	if string is not in the list the input gets appended to the list
+	if the string is empty then the last item is popped from the list
+	if the list becomes empty the program ends
+	if the user enters "quit" then the program ends
+	"""
+
 
 	def __init__(self, entity_list):
 		self.entity_list = entity_list
