@@ -19,4 +19,5 @@ class FileParser():
 if __name__ == '__main__':
    current_location = os.getcwd()
    print ("Current working dir : %s" % current_location)
-   FileParser(current_location+'/phrases.txt')
+   file_location = current_location+'/phrases.txt'
+   FileParser(file_location)
